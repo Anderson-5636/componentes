@@ -28,4 +28,6 @@ coloquei mais nada.
 
         (O "Flask/flask" pode ser maiusculo ou minusculo, parece que faz diferença)
 
+# Vocês podem pegar esses arquivos e adlterar ele colocando o de vocês
+
 :)
