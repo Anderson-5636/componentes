@@ -2,8 +2,8 @@ Boa Noite Pessoal!
 
 *************   Problema   *************
 
-    Eu não sei o motivo, mas não consigo iniciar o banco de dados, acredito que seja a falta de um "pip"
-como na aula da prof Alba, eu tentei inserir o pip db init, mas não foi, pesquisei mas não achei algo que
+    Eu não sei o motivo, mas não consigo iniciar o banco de dados, acredito que seja a falta de um 'pip',
+como na aula da prof Alba, eu tentei inserir o 'pip db init', mas não foi, pesquisei mas não achei algo que
 solucione isso. 
 
 # Pergunta ao professor, talvez ele saiba o motivo.
@@ -11,14 +11,14 @@ solucione isso.
 *************   mais ou menos uma Solução   *************
 
     Porém, tem uma outra forma de como criar o banco de dados, eu fui em meubanco.db e - Que está na pasta
-Instance e para quem tem a extensão SQlit3 Editor - tem uma caixainha em elipse azul escrito criar banco de
-dados, cliquei nela e fui criando o nome do BD, cada coluna e a cada coluna eu dizia se era PRIMARY KEY ou 
+Instance e ptem que ter a extensão SQlit3 Editor - tem uma caixainha em elipse azul escrito 'criar banco de
+dados', cliquei nela e fui criando o nome do BD, cada coluna e a cada coluna eu dizia se era PRIMARY KEY ou 
 NOT NULL. No caso do ID tem que colocar que ele é PRIMORY KEY e AUTOINCREMENT.
 
 *************   Modificações   *************
 
-    Eu só adicionei o "import sqlit3" nos arquivos que tem escrito class antes, fora isso acho que não 
-coloquei mais nada.
+    Eu só adicionei o "import sqlit3" nos arquivos que tem escrito 'Class_algumaCoisa.py', fora isso acho 
+que não coloquei mais nada.
 
 *************   PIP's   *************
 
@@ -26,8 +26,8 @@ coloquei mais nada.
 
                 pip install flask 
 
-        (O "Flask/flask" pode ser maiusculo ou minusculo, parece que faz diferença)
+        (Esse "Flask/flask" pode ser maiusculo ou minusculo, parece que faz diferença)
 
-# Vocês podem pegar esses arquivos e adlterar ele colocando o de vocês
+# Vocês podem pegar esses arquivos e alterar ele colocando o de vocês
 
 :)
