@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deletar</title>
+  </head>
+  <body>
+      Voce tem certeza que deseja excluir o usuario {{classificacaoProduto.nome}}?
+      <form  method="post" action="/classificacaoProduto/delete/{{classificacaoProduto.id}}" >
+        Descrição: <input name='Descricao' type="text" size='100' placeholder='Digite o seu nome' value="{{classificacaoProduto.Descricao}}"/>
+        <input type="submit" value="Sim">
+      </form>
+      <a href="/classificacaoProduto/list">Cancelar</a>
+  </body>
+  </html>

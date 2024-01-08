@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir=>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form method='post' action='/cliente/update/{{cliente.id}}'>
+
+      Nome: <input name='Nome' type="text" size='100' value="{{cliente.Nome}}" />
+      Telefone: 
+      <input name='Telefone' type="text" size='200' value="{{cliente.Telefone}}"/>
+      Logradouro:  <input name='Logradouro' type="text" value="{{cliente.Logradouro}}" />
+      Numero: <input name='Numero' type="text" size='15' value="{{cliente.Numero}}"/>
+      Complemento: <input name='Complemento' type="text" size='100' value="{{cliente.Numero}}" />
+      Bairro: <input name='Bairro' type="text" size='50' value="{{cliente.Bairro}}"/>
+      Cidade: <input name='Cidade' type="text" size='50' value="{{cliente.Cidade}}"/>
+      UF: <input name='UF' type="text" size='2' value="{{cliente.UF}}"/>
+      Senha: <input name='Senha' type="password" size='50' value="{{cliente.Senha}}"/>
+
+      <input type='submit' value='Atualizar'/>
+      <!--<button>cadastrar</button>-->
+
+    </form>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir=>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form method='post' action='/classificacaoProduto/update/{{classificacaoProduto.id}}'>
+
+      Descrição: <input name='Descricao' type="text" size='100' value="{{classificacaoProduto.Nome}}" />
+
+      <input type='submit' value='Atualizar'/>
+      <!--<button>cadastrar</button>-->
+
+    </form>
+  </body>
+</html>
